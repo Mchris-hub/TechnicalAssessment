@@ -1,0 +1,197 @@
+[
+  {
+    "ContainingType": "Technical_assessment.Controllers.TaskController",
+    "Method": "GetTasks",
+    "RelativePath": "api/Task",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_assessment.Controllers.TaskController",
+    "Method": "addtask",
+    "RelativePath": "api/Task",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addTaskRequest",
+        "Type": "Technical_assessment.models.AddTaskRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_assessment.Controllers.TaskController",
+    "Method": "UpdateTask",
+    "RelativePath": "api/Task/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTaskRequest",
+        "Type": "Technical_assessment.models.UpdateTaskRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_assessment.Controllers.TaskController",
+    "Method": "DeleteTask",
+    "RelativePath": "api/Task/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_assessment.Controllers.TaskController",
+    "Method": "GetActiveTasks",
+    "RelativePath": "api/Task/Active/{Userdate}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Userdate",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_assessment.Controllers.TaskController",
+    "Method": "GetexpiredTasks",
+    "RelativePath": "api/Task/expired/{Userdate}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Userdate",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_assessment.Controllers.TaskController",
+    "Method": "GetspecificDateTasks",
+    "RelativePath": "api/Task/specific/{Userdate}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Userdate",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_assessment.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_assessment.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addUserRequest",
+        "Type": "Technical_assessment.models.AddUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_assessment.Controllers.UserController",
+    "Method": "UpDatetask",
+    "RelativePath": "api/User/{Api_Keyy}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Api_Key",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateUserRequest",
+        "Type": "Technical_assessment.models.UpdateUserRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "Api_Keyy",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_assessment.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/{ApiKey}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_assessment.Controllers.UserController",
+    "Method": "GetUser",
+    "RelativePath": "api/User/OneUser/{Api_Key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Api_Key",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
